@@ -7,7 +7,7 @@ variables:
   testProjects: '**/*Test*/*.csproj'
   buildConfiguration: 'Release'
 pool:
-  name: Azure Pipelines
+  vmImage: vs2017-win2016
 steps:
   - task: DotNetCoreCLI@2
     displayName: Restore
