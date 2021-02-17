@@ -6,7 +6,7 @@ variables:
     !**/*Test*.csproj
   testProjects: '**/*Test*/*.csproj'
   buildConfiguration: 'Release'
-queue:
+pool:
   name: Azure Pipelines
 steps:
   - task: DotNetCoreCLI@2
