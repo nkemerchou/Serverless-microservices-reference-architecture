@@ -1,6 +1,6 @@
 resources:
 - repo: self
-queue:
+pool:
   name: Azure Pipelines
   demands: npm
 
