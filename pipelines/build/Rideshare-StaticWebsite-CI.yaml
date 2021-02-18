@@ -1,7 +1,7 @@
 resources:
   - repo: self
 queue:
-  name: Azure Pipelines
+  vmImage: vs2017-win2016
   demands: npm
 
 steps:
