@@ -1,8 +1,8 @@
-resources:
-  - repo: self
-queue:
-  name: Azure Pipelines
-  demands: npm
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
 
 steps:
   - task: Npm@1
